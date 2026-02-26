@@ -3,8 +3,8 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
-# Project documentation (architecture, stories — not shipped)
-docs/
+# Project documentation — architecture & stories are AI-generated artifacts
+# docs/
 
 # dotenv files
 .env
