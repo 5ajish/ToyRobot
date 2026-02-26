@@ -1,6 +1,3 @@
-using ToyRobot.Models;
-using ToyRobot.Simulation;
-
 namespace ToyRobot.Commands;
 
 public interface ICommand

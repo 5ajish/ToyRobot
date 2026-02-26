@@ -1,6 +1,3 @@
-using ToyRobot.Models;
-using ToyRobot.Simulation;
-
 namespace ToyRobot.Commands;
 
 public class PlaceCommand(int x, int y, Direction direction) : ICommand

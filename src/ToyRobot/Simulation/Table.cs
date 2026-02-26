@@ -1,5 +1,3 @@
-using ToyRobot.Models;
-
 namespace ToyRobot.Simulation;
 
 public class Table(int width = 5, int height = 5)

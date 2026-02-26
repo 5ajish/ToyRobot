@@ -6,6 +6,7 @@ using ToyRobot.Simulation;
 
 namespace ToyRobot.Tests.Commands;
 
+[Collection("ConsoleOutput")]
 public class ReportCommandTests
 {
     [Fact]
