@@ -2,7 +2,7 @@
 
 ## Approach
 
-AI-assisted, TDD-driven development using the BMAD Core agent framework inside Cursor IDE. Three specialized agents — **Architect**, **Product Owner**, and **Developer** — collaborated with a human developer to go from requirements to working software.
+AI-assisted, TDD-driven development using the BMAD Core agent framework inside Cursor IDE. Three specialized / customized agents — **Architect**, **Product Owner**, and **Developer** — collaborated with a human developer to go from requirements to working software.
 
 ## Tools
 
