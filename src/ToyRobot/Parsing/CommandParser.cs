@@ -15,6 +15,7 @@ public class CommandParser
             "LEFT"   => new LeftCommand(),
             "RIGHT"  => new RightCommand(),
             "REPORT" => new ReportCommand(),
+            "SHOW"   => new ShowCommand(),
             "PLACE"  => ParsePlace(parts.Length > 1 ? parts[1] : null),
             _        => null
         };

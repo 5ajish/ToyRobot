@@ -93,6 +93,12 @@ public class CommandParserTests
     }
 
     [Fact]
+    public void Parse_Show_ReturnsShowCommand()
+    {
+        _parser.Parse("SHOW").Should().BeOfType<ShowCommand>();
+    }
+
+    [Fact]
     public void Parse_UnknownCommand_ReturnsNull()
     {
         _parser.Parse("JUMP").Should().BeNull();
