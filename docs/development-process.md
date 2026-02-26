@@ -35,5 +35,6 @@ AI-assisted, TDD-driven development using the BMAD Core agent framework inside C
 | No DI container | Overkill for this size; `new` in `Program.cs` is simpler and fully testable |
 | `[Collection("ConsoleOutput")]` on tests | xUnit runs classes in parallel; tests capturing `Console.Out` need sequential execution |
 | Silent ignore for invalid commands | Spec-driven — `CommandParser` returns `null`, `Simulator` skips it |
-| Dynamic table size (bonus) | Spec says 5×5 but we made it configurable via CLI args at no extra complexity |
 | Manual validation for Program.cs | Thin glue code (16 lines) — piped test data files beat complex console mocking |
+| Dynamic table size (bonus) | Spec says 5×5 but we made it configurable via CLI args at no extra complexity |
+| SHOW command (bonus) | Not in the original spec — added visual grid with compass rose to enhance the interactive experience |
